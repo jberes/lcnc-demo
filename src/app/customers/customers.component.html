@@ -1,0 +1,22 @@
+<igx-grid [data]="dataSource1Table1" primaryKey="CustomerID" [autoGenerate]="false" displayDensity="cosy" rowSelection="multiple" cellSelection="multiple" [rowEditable]="true" columnSelection="multiple" [allowFiltering]="true" filterMode="excelStyleFilter" width="100%" height="1000px" class="grid">
+  <igx-grid-toolbar>
+    <igx-grid-toolbar-actions>
+      <igx-grid-toolbar-pinning>True</igx-grid-toolbar-pinning>
+      <igx-grid-toolbar-hiding>True</igx-grid-toolbar-hiding>
+      <igx-grid-toolbar-exporter></igx-grid-toolbar-exporter>
+      <igx-grid-toolbar-advanced-filtering></igx-grid-toolbar-advanced-filtering>
+    </igx-grid-toolbar-actions>
+    <igx-grid-toolbar-title>Grid Toolbar</igx-grid-toolbar-title>
+  </igx-grid-toolbar>
+  <igx-column header="CustomerID" field="CustomerID" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="CustomerID"></igx-column>
+  <igx-column header="CompanyName" field="CompanyName" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="CompanyName"></igx-column>
+  <igx-column header="ContactName" field="ContactName" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="ContactName"></igx-column>
+  <igx-column header="ContactTitle" field="ContactTitle" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="ContactTitle"></igx-column>
+  <igx-column header="Address" field="Address" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="Address"></igx-column>
+  <igx-column header="City" field="City" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="City"></igx-column>
+  <igx-column header="Region" field="Region" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="Region"></igx-column>
+  <igx-column header="Country" field="Country" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="Country"></igx-column>
+  <igx-column header="Phone" field="Phone" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="Phone"></igx-column>
+  <igx-column header="Fax" field="Fax" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="Fax"></igx-column>
+  <igx-paginator [perPage]="75"></igx-paginator>
+</igx-grid>
